@@ -117,4 +117,5 @@ if __name__ == '__main__':
     # Clear Button - Clear All Cells
     b5 = tk.Button(root, text='Clear', command=(lambda e=ents: clearEntries(e)))
     b5.pack(side=tk.BOTTOM, padx=25, pady=25)
+    # Run Main Tkinter Loop
     root.mainloop()
